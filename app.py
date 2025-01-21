@@ -9,7 +9,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the dataset (replace with the full path to your dataset)
-dataset_path = r'D:\manufacturing_api\Machine Downtime.csv'  # Use raw string (r'') for Windows paths
+dataset_path = r'data/Machine Downtime.csv'  # Dataset is inside the 'data' folder
 df = pd.read_csv(dataset_path)
 
 # Check for missing values and drop rows with missing values
